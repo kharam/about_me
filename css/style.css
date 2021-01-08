@@ -1,0 +1,16 @@
+.navbar-brand {
+  font-family: "Sacramento", cursive;
+  background-color: green;
+  color: white !important;
+}
+h1 {
+  color: green;
+}
+
+body {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/moroccan-flower.png");
+}
+
+white-card {
+  background: white;
+}
