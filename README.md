@@ -2,12 +2,14 @@
 
 - Try to move away from other dependencies.
   - vanila javascript, and native css
+- Follow BEM (BLOCK\_\_Element--modifier) format
 
 # About me
 
 A simple html webpage about me.
 
-You might notice that the portfolio is empty. It is empty because, I am going to fill out this webpage later.
+You might notice that the portfolio is empty. It is empty because, I am going to
+fill out this webpage later.
 
 You can find my linkedin webpage by clicking by picture.
 
