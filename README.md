@@ -1,3 +1,8 @@
+# todo
+
+- Try to move away from other dependencies.
+  - vanila javascript, and native css
+
 # About me
 
 A simple html webpage about me.
