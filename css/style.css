@@ -102,7 +102,7 @@ p {
 #navbar.navbar-dark {
   background-color: var(--color-dark-blue);
   padding: 16px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar__menu {
@@ -465,12 +465,11 @@ p {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    /* display: none; */
-    display: block;
+    display: none;
   }
 
   .navbar__menu.open {
-    display: none;
+    display: block;
   }
 
   .about__majors {
