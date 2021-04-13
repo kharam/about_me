@@ -19,8 +19,14 @@ navbarMenu.addEventListener("click", (event) => {
   if (link == null) {
     return;
   }
-
+  navbarMenu.classList.remove("open");
   scrollIntoView(link);
+});
+
+// Navbar toggle button for small screen
+const navbarToggleBtn = document.querySelector(".navbar__toggle-btn");
+navbarToggleBtn.addEventListener("click", () => {
+  navbarMenu.classList.toggle("open");
 });
 
 // Make home slowly fade to transparaent as the window scrools down
@@ -63,6 +69,11 @@ workBtnContainer.addEventListener("click", (e) => {
   if (filter == null) {
     return;
   }
+
+  //My work, remove selection from previous
+  const active = document.querySelector(".category__btn.selected");
+  active.classList.remove("selected");
+  e.target.closest("button").classList.add("selected");
 
   projectContainer.classList.add("animation-out");
 
