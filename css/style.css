@@ -95,13 +95,13 @@ p {
   background-color: transparent;
   align-items: center;
   color: var(--color-white);
-  padding: 16px;
+  padding: 0px;
   transition: all var(--animation-duration) ease-in-out;
 }
 
 #navbar.navbar-dark {
   background-color: var(--color-dark-blue);
-  padding: 16px;
+  padding: 0px;
   z-index: 2;
 }
 
@@ -128,7 +128,7 @@ p {
 
 .navbar__toggle-btn {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 32px;
   font-size: 24px;
   color: white;
