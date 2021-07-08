@@ -1,8 +1,12 @@
+# deployed website
+https://kharam.github.io/about_me/
+
 # todo
 
 - Try to move away from other dependencies.
   - vanila javascript, and native css
 - Follow BEM (BLOCK\_\_Element--modifier) format
+- Rewrite, and change it with typescript and react.
 
 # About me
 
